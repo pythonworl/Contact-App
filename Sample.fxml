@@ -14,14 +14,14 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.contactapp.Controller">
     <left>
-        <ListView fx:id="contactsListView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <ListView fx:id="contactsListView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E9967A;" BorderPane.alignment="CENTER">
             <BorderPane.margin>
                 <Insets />
             </BorderPane.margin>
         </ListView>
     </left>
     <center>
-        <GridPane alignment="CENTER" hgap="8.0" maxWidth="1.7976931348623157E308" prefHeight="294.0" prefWidth="368.0" BorderPane.alignment="CENTER">
+        <GridPane alignment="CENTER" hgap="8.0" maxWidth="1.7976931348623157E308" prefHeight="294.0" prefWidth="368.0" style="-fx-background-color: #A9A9A9;" BorderPane.alignment="CENTER">
             <columnConstraints>
                 <ColumnConstraints halignment="RIGHT" />
                 <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
